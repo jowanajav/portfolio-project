@@ -4,7 +4,7 @@ h1 {
   font-weight: bold;
 }
 
-p {
+.greeting {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 24px;
