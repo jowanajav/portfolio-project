@@ -15,15 +15,26 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-family: var(--header-font);
+  font-size: 64px;
+}
+
+p {
   font-weight: normal;
-  line-height: 2;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
   background-color: var(--secondary-color);
   padding: 160px 20px;
   text-align: center;
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
 }
 
 .hero p {
@@ -37,6 +48,19 @@ h2 {
   color: #fff;
   font-weight: normal;
   font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.app-description {
+  padding: 120px 60px;
+}
+
+.app-description .btn {
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid var(--primary-color);
   padding: 15px 30px;
   border-radius: 4px;
 }
