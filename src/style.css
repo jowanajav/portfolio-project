@@ -26,7 +26,7 @@ p {
 }
 
 .hero {
-  background-color: var(--secondary-color);
+  background: var(--secondary-color);
   padding: 160px 20px;
   text-align: center;
 }
@@ -34,17 +34,18 @@ p {
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .hero p {
   font-weight: bold;
   font-size: 36px;
   margin: 0;
+  color: #272142;
 }
 
-.hero .btn-branding {
-  background-color: var(--primary-color);
+.btn-branding {
+  background: var(--primary-color);
   color: #fff;
   font-weight: normal;
   font-size: 18px;
@@ -56,11 +57,41 @@ p {
   padding: 120px 60px;
 }
 
-.app-description .btn {
+.btn-app-branding {
   color: var(--primary-color);
   font-size: 18px;
   line-height: 27px;
   border: 1px solid var(--primary-color);
   padding: 15px 30px;
   border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+    line-height: 2;
+  }
+
+  .hero {
+    padding: 80px 15px;
+  }
+
+  .hero p {
+    font-size: 30px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .app-description {
+    padding: 0px 15px;
+    text-align: center;
+  }
 }
