@@ -66,10 +66,26 @@ p {
   border-radius: 4px;
 }
 
+.about-header {
+  padding: 160px 60px;
+}
+
+.about-header {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-header h2 {
+  font-size: 28px;
+}
+
+.jowana {
+  border-radius: 8px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
-    line-height: 2;
   }
 
   .hero {
