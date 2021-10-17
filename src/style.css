@@ -66,17 +66,22 @@ p {
   border-radius: 4px;
 }
 
-.about-header {
+.page-header {
   padding: 160px 20px;
 }
 
-.about-header h1 {
+.page-header h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-header h2 {
+.page-header h2 {
   font-size: 18px;
+  font-weight: bold;
+}
+
+.page-header h3 {
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -113,7 +118,7 @@ p {
     text-align: center;
   }
 
-  .about-header {
+  .page-header {
     padding: 10px 10px;
     text-align: center;
   }
