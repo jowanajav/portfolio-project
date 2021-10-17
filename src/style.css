@@ -67,16 +67,17 @@ p {
 }
 
 .about-header {
-  padding: 160px 60px;
+  padding: 160px 20px;
 }
 
-.about-header {
+.about-header h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
 .about-header h2 {
-  font-size: 28px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .jowana {
@@ -86,6 +87,7 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
+    line-height: 80px;
   }
 
   .hero {
@@ -108,6 +110,11 @@ p {
 
   .app-description {
     padding: 0px 15px;
+    text-align: center;
+  }
+
+  .about-header {
+    padding: 10px 10px;
     text-align: center;
   }
 }
