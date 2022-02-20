@@ -21,7 +21,7 @@ h2 {
 
 h3 {
   font-family: var(--header-font);
-  font-size: 48px;
+  font-size: 36px;
 }
 
 p {
@@ -73,6 +73,15 @@ hr {
   line-height: 27px;
   border: 1px solid var(--primary-color);
   padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.btn-app {
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 8px 16px;
   border-radius: 4px;
 }
 
