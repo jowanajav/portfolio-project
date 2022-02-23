@@ -3,10 +3,13 @@
   --secondary-font: "Poppins", sans-serif;
   --primary-color: #6b63ff;
   --secondary-color: #f9f7fd;
+  --bg-color: #16101a;
 }
 
 body {
   font-family: var(--secondary-font);
+  background: var(--bg-color);
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -24,6 +27,11 @@ h3 {
   font-size: 36px;
 }
 
+h4 {
+  font-family: var(--header-font);
+  font-size: 24px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -36,8 +44,8 @@ hr {
 }
 
 .hero {
-  background: var(--secondary-color);
-  padding: 160px 20px;
+  background-image: url("/images/bg.png");
+  padding: 200px 20px;
   text-align: center;
 }
 
@@ -52,6 +60,11 @@ hr {
   font-size: 36px;
   margin: 0;
   color: #272142;
+}
+
+.about-section {
+  padding: 100px 20px;
+  line-height: 30px;
 }
 
 .btn-branding {
@@ -76,6 +89,11 @@ hr {
   border-radius: 4px;
 }
 
+.btn-app-branding:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
 .btn-app {
   background: var(--primary-color);
   color: #fff;
@@ -83,6 +101,29 @@ hr {
   font-size: 12px;
   padding: 8px 16px;
   border-radius: 4px;
+}
+
+.work-thumbnail {
+  background-color: var(--secondary-color);
+}
+
+.work-img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.see-more {
+  color: var(--primary-color);
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.see-more:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+  font-style: italic;
 }
 
 .page-header {
@@ -104,30 +145,21 @@ hr {
   font-weight: bold;
 }
 
-.page-header .about-greeting {
-  font-size: 48px;
-  font-family: var(--header-font);
-  line-height: 30px;
-}
-
-.jowana {
-  border-radius: 8px;
-}
-
 footer {
   margin: 60px 0;
 }
 
 footer .work-section {
   background: var(--secondary-color);
-  padding: 30px 120px;
+  padding: 32px 120px;
   border-radius: 10px;
+  color: var(--bg-color);
 }
 
 footer .email-link {
   text-decoration: none;
-  color: black;
-  font-size: 24px;
+  color: var(--secondary-color);
+  font-size: 16px;
 }
 
 footer .email-link:hover {
@@ -135,8 +167,8 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  color: var(--primary-color);
-  background: var(--secondary-color);
+  color: var(--secondary-color);
+  background: var(--primary-color);
   font-size: 24px;
   padding: 10px 15px;
   margin: 0 20px;
@@ -145,8 +177,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
-  background: var(--primary-color);
+  color: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 @media (max-width: 1000px) {
