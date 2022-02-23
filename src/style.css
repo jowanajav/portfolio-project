@@ -132,6 +132,10 @@ hr {
   border-radius: 4px;
 }
 
+.page-header {
+  padding: 80px 10px;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -175,7 +179,7 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 80px 15px 30px 15px;
+    padding: 80px 15px 80px 15px;
   }
 
   .hero p {
