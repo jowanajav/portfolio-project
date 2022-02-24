@@ -63,7 +63,7 @@ hr {
 }
 
 .about-section {
-  padding: 100px 20px;
+  padding: 100px 20px 50px 20px;
   line-height: 30px;
 }
 
@@ -147,10 +147,20 @@ footer .work-section {
   color: var(--bg-color);
 }
 
-footer .email-link {
+/* footer .email-link {
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 16px;
+} */
+
+footer .email-link a {
+  color: black;
+  background: var(--primary-color);
+  font-size: 24px;
+  padding: 9px 40px;
+  margin: 0 20px;
+  border-radius: 4px;
+  transition: all 100ms ease-in-out;
 }
 
 footer .email-link:hover {
@@ -207,7 +217,7 @@ footer .social-links a:hover {
   }
 
   footer .work-section {
-    padding: 32px 80px;
+    padding: 32px 60px;
   }
 
   footer h3 {
