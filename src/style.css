@@ -63,7 +63,7 @@ hr {
 }
 
 .about-section {
-  padding: 100px 20px 50px 20px;
+  padding: 80px 20px 50px 20px;
   line-height: 30px;
 }
 
@@ -147,20 +147,15 @@ footer .work-section {
   color: var(--bg-color);
 }
 
-/* footer .email-link {
+footer .contact-section p {
+  font-size: 20px;
+}
+
+footer .email-link {
   text-decoration: none;
   color: var(--secondary-color);
-  font-size: 16px;
-} */
-
-footer .email-link a {
-  color: black;
-  background: var(--primary-color);
-  font-size: 24px;
-  padding: 9px 40px;
-  margin: 0 20px;
-  border-radius: 4px;
-  transition: all 100ms ease-in-out;
+  font-size: 32px;
+  font-family: var(--header-font);
 }
 
 footer .email-link:hover {
@@ -168,18 +163,16 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  color: var(--secondary-color);
-  background: var(--primary-color);
+  color: var(--primary-color);
   font-size: 24px;
-  padding: 10px 15px;
   margin: 0 20px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: var(--primary-color);
-  background: var(--secondary-color);
+  color: var(--secondary-color);
+  /* background: var(--secondary-color); */
 }
 
 @media (max-width: 1000px) {
@@ -220,8 +213,18 @@ footer .social-links a:hover {
     padding: 32px 60px;
   }
 
+  footer .contact-section {
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 20px 20px;
+  }
+
+  footer .contact-section a {
+    font-size: 24px;
+  }
+
   footer h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   footer p {
