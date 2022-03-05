@@ -70,7 +70,6 @@ hr {
 .portfolio-section {
   padding: 50px 20px;
   line-height: 30px;
-  border: 1px solid var(--primary-color);
 }
 
 .portfolio-section .work-thumbnail {
@@ -85,8 +84,9 @@ hr {
 
 .portfolio-section .see-more {
   color: var(--primary-color);
+  font-size: 13px;
   text-decoration: none;
-  text-align: right;
+  text-align: center;
   display: block;
 }
 
