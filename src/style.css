@@ -164,6 +164,10 @@ footer .social-links a:hover {
     padding: 10px 15px;
   }
 
+  .about-section {
+    text-align: center;
+  }
+
   footer .contact-section {
     border: 1px solid var(--primary-color);
     border-radius: 8px;
